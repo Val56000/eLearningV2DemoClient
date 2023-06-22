@@ -1,0 +1,224 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+
+/* main id  */
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+/* flex  */
+.flex{
+    display: flex;
+}
+.flexColumn {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexRow {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 8rem;
+    height: 1.9rem !important;
+    border-radius: 10px !important;
+}
+.gap {
+    gap: 1rem !important;
+}
+
+/* with  */
+.withMax{
+    width: 100vw !important;
+}
+
+.withMedium{
+    width: 80vw;
+}
+
+.widthSmall{
+    width: 50vw !important;
+}
+
+/* Text-align */
+.center {
+    text-align: center;
+    
+}
+.alignLeft {
+    text-align: left;
+}
+.alignRight {
+    text-align: right;
+}
+
+
+/* Margins  */
+.marginBottom {
+    margin-bottom: 1rem;
+}
+.marginRight {
+    margin-right: 1rem;
+}
+.marginLeft {
+    margin-left: 1rem;
+}
+.marginTop {
+    margin-top: 1rem;
+}
+.marginBetweenButtons {
+    gap: 1rem;
+}
+
+
+
+
+
+/* Fonts */
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* All textareas  */
+.modifyTextarea {
+    width: 80vw;
+    min-width: 80vw;
+    resize: none;
+}
+
+
+
+/* Logout icon */
+.rotateLogOut {
+    rotate: 180deg;
+    position: fixed;
+    top: 0;
+    left: 1.3rem; 
+    cursor: pointer;
+    font-size: 3rem !important; 
+    margin-top: 1rem; 
+    font-size: 2rem !important; 
+}
+.rotateLogOutChild{
+    rotate: 180deg;
+    cursor: pointer;
+}
+
+/* colors  */
+.blueBold {
+/* color: #485fc7; */
+   color: black;
+}
+
+.blueLight{
+    color: #f29300;
+}
+.white{
+    color: white;
+}
+
+
+
+
+
+/* cursor  */
+.cursorPointer{
+    cursor: pointer;
+}
+
+
+
+/* Font-size  */
+.smallSize{
+    font-size: 0.8rem;
+}
+
+.largeSize{
+    font-size: 1.5rem;
+}
+
+
+
+/* List  */
+li{
+    margin-bottom: 0.8rem;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-thickness: 1.1px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    z-index: 2;
+}
+
+
+/* position  */
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+/* arrow icon  */
+.fi-rs-angle-right, .fi-rs-angle-left{
+    display: flex;
+}
+
+button.is-info.is-light{
+    background-color: #f29300 !important;
+    color: #ffffff !important;
+    border: none;
+    border-color: transparent;
+    box-shadow: none;
+  }
+button.is-info.is-light:hover, label.is-info:hover{
+    color: black !important;
+  }
+
+.button.is-link.is-light{
+    background-color: #f29300 !important;
+    color: #ffffff !important;
+  }
+.button.is-info{
+    background-color: #f29300 !important;
+    color: #ffffff !important;
+  }
+  .styleMode{
+    background-color: #f29300;
+    color: black;
+  }
+  .greenBold{
+    background-color: black !important;
+    color: white !important;
+  }
+
+
